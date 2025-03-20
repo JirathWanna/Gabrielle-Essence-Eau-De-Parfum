@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.container {
+    width: 50rem;
+    margin-inline: auto;
+    display: flex;
+}
+
+.img {
+    width: 25rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.content {
+    background-color: white;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 2.5rem;
+}
+
+.top_content {
+    font-family: 'Montserrat';
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.title {
+    margin-top: 1rem;
+    font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.main_text {
+    margin-top: 1rem;
+    font-family: 'Montserrat';
+    color: hsl(228, 12%, 48%);
+    font-size: 1rem;
+}
+
+.price_container {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.full_price {
+    font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 3rem;
+    color: hsl(158, 36%, 37%);
+}
+
+.half_price {
+    align-self: center;
+    margin-left: 1rem;
+    text-decoration:line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+.button {
+    margin-top: 2rem;
+    border-style: none;
+    background-color:  hsl(158, 36%, 37%);
+    color: white;
+    width: 100%;
+    height: 3rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+@media screen and (max-width:1000px) {
+    .container {
+        width: 20rem;
+        margin-inline: auto;
+        display: block;
+    }
+
+    .img {
+        width: 20rem;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .content {
+        background-color: white;
+        width: 100%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding: 1.5rem;
+    }
+    
+    .top_content {
+        font-family: 'Montserrat';
+        color: hsl(228, 12%, 48%);
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    
+    .title {
+        margin-top: 0.5rem;
+        font-family: 'Fraunces';
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+    
+    .main_text {
+        margin-top: 0.5rem;
+        font-family: 'Montserrat';
+        color: hsl(228, 12%, 48%);
+        font-size: 0.8rem;
+    }
+    
+    .price_container {
+        display: flex;
+        margin-top: 1rem;
+    }
+    
+    .full_price {
+        font-family: 'Fraunces';
+        font-weight: 700;
+        font-size: 1.8rem;
+        color: hsl(158, 36%, 37%);
+    }
+    
+    .half_price {
+        align-self: center;
+        margin-left: 1rem;
+        text-decoration:line-through;
+        color: hsl(228, 12%, 48%);
+        font-size: 1rem;
+    }
+    
+    .button {
+        margin-top: 1rem;
+        border-style: none;
+        background-color:  hsl(158, 36%, 37%);
+        color: white;
+        width: 100%;
+        height: 3rem;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-family: 'Montserrat';
+        font-weight: 500;
+    }
+    
+}
